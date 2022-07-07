@@ -1,15 +1,16 @@
  /** all body content style ******************************/
 body{background-color:white;
-    width: 650px;
+    width: 850px;
     height: 1500px;
-    margin: auto;}
+    margin: auto;
+    font-family:Arial, Helvetica, sans-serif;}
 
 /***** Header section style **********************************************/
-header{background:linear-gradient(rgba(255, 255, 255, 0.13),rgba(0, 0, 0, 0.422)),url(image/donation13.jpg);
+header{background:linear-gradient(rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.203)),url(image/donation13.jpg);
          background-repeat: no-repeat;
          background-size:cover;
          color: white;
-         height:300px;
+         height:390px;
          width: 100%;}
 .header-textbutt{ width: 400px;
                  height: fit-content;
@@ -19,11 +20,11 @@ header{background:linear-gradient(rgba(255, 255, 255, 0.13),rgba(0, 0, 0, 0.422)
 .header-textbutt h1{word-spacing: 4px;}                
 .donate-button{background-color: #FF5959;
         border: none;
-        border-radius: 2px;
-        padding: 9px;
-        font-size:x-small;
-        font-weight: 600;
-        color:wheat;}
+        border-radius: 3px;
+        padding: 9px 13px;
+        font-size:12px;
+        font-weight: 500;
+        color:white;}
 
 /********* Donate Today section ********/
 .Donate-today{border:1px solid black;
@@ -34,29 +35,100 @@ header{background:linear-gradient(rgba(255, 255, 255, 0.13),rgba(0, 0, 0, 0.422)
 #doller-box{display:flex;}
 .doller{color:#6C6C6C;
         background-color:#FAFAFA;
-        height:60px;
-        width: 60px;
+        height:80px;
+        width: 80px;
         text-align: center;
+        align-content: center;
         margin: auto;}
-#donate-today-outher-amount{color: #6c6c6cb2;
+#donate-today-outher-amount{color:gray;
                             font-size: 11px;}
 
 #un-outher-am-vline{height: 2px;
                     width: 500px;
-                    background-color: #6c6c6c6a;margin: auto;}                     
+                    background-color: #6c6c6c6a;margin: auto;}  
                     
-     /* get my updates section style                      */
+                
+ /*************Our Donate Plane style line ****************/
+ #our-don-plan{border: 1px solid black;
+               height: 450px;;
+               width: 100%;}
+.our-plan-text{border: 1px solid red;
+               text-align: center;
+               height:30%;
+               width:500px;
+                margin: auto;}
+.plan-all-box{border: 1px solid rgb(215, 6, 6);
+              height: 50%;
+              width:650px;
+               margin: auto;
+              display: flex;}
+.blood-donet-box{height: 170px;
+                 width: 200px;
+                 margin-right:20px ;
+                 background-color:#EDF5F6 ;
+                 border-radius: 4px;
+                 padding:20px 0px 0px 10px;}
+.blood-donet-box p{font-size: 11px;}
 
-#updates{border: solid red 1px;}
-#subs-but{}
+.Free-madicne-box{background-color:#FFEEEE ;
+                  height: 170px;
+                  width: 200px;
+                  border-radius: 4px;
+                  padding: 20px 0px 0px 10px;}
+.Free-madicne-box p{font-size:11px;}
+
+.free-education-box{background-color: #FFF4D6;
+                    height: 170px;
+                    width: 200px;
+                    margin-left: 20px;
+                    border-radius: 4px;
+                    padding: 20px 0px 0px 10px;
+                    }
+.free-education-box p{font-size: 11px;}
+
+/**********New add
 
 
+/************ get my updates section style *************************/
+#updates{height: 299px;
+         width: 100%;
+         text-align: center;
+         margin: auto;}
+.updates-text{width: 60%;
+              height:100px;
+              margin: auto;
+              padding-top: 15px;}         
+.email-subscribe{width:60%;
+                 height: 150px;
+                 margin:auto;}
+.emailandsubscribe-box{padding-top: 5px;
+                       height:105px;
+                       width: 470px;
+                       background-color:#FFF4D6;
+                        display:inline-block ;
+                       border-radius: 2px;}
+.emailandsubscribe-box input{border: none;
+                             padding: 8px 22px;
+                             font-size: 10px;
+                             border-radius: 2px;
+                             background-color: #D9D9D9;}
+
+.emailandsubscribe-box button{background-color: rgba(255, 0, 0, 0.904);
+                             border: none;
+                             margin-left: -4px;
+                             padding: 8px 22px;
+                             font-size: 10px;
+                             color:white;
+                             border-radius: 2px;}                                         
 
 
-
+/*************** Footer section style ***************************/
 #footer{background-color: black;
         text-align: center;
         height: 90px;
         width: 100%;}   
 #footer p{color: red;}   
 #footer small{color: white;}                      
+
+
+
